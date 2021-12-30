@@ -1,0 +1,104 @@
+body{
+    background: #e9e7e7;
+    font-family: Monaco, monospace;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 600px) {
+    .flex-container {
+      flex-direction: column;
+      width: 100%;
+      flex: 100%;
+    }
+  }
+
+div.flex-child{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+#main-img img{
+    float: right; 
+    width: 500px ; 
+    height: 900px;
+}
+
+#intro{
+    float: left; 
+    width: 300px; 
+    margin-top: 0px;
+}
+
+div.flex-child2{
+    background-color: rgb(56, 55, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+div.flex-child3{
+    background-color: #e9e7e7;
+}
+
+div.flex-child3 > img{
+    width: 800px ; 
+    height: 500px;
+} 
+
+.button{
+    border-radius: 30px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(146, 146, 146);
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Monaco, monospace;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+#footer{
+    margin-top: 100px;
+    line-height: 1rem;
+    margin-bottom: 70px;
+}
+
+
+h1{
+    line-height: 3rem;
+}
+
+h3{    
+    line-height: 1.7rem;
+    font-size: 16px;
+}
+
+p{   
+    text-transform: capitalize;
+    color: gray;
+    font-size: 14px;
+}
+
+#footer p{
+    text-transform: capitalize;
+    color: #333333;
+}
+
+#footer h1{
+    color: #333333;
+}
