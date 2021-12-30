@@ -15,9 +15,53 @@ body{
 
 @media screen and (max-width: 600px) {
     .flex-container {
-      flex-direction: column;
       width: 100%;
       flex: 100%;
+    }
+
+    div.flex-child{
+      width: 100%;
+      flex: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #intro{
+        width: 100%; 
+        margin-bottom: 40px;
+    }
+
+    #main-img{
+        width: 100% ; 
+        height: 400px;
+    }
+
+    #intro-text{
+        color: rgb(201, 198, 198);
+    }
+
+    .flex-child3{
+        width: 100% ; 
+    }
+
+    div.flex-child3 > img{
+        width: 100%;
+        height: 200px;
+    }
+
+    div.flex-child2{
+        width: 100% ; 
+        background-color: rgb(56, 55, 55);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+    }
+
+    #first-img, #second-img, #third-img, #fourth-img, #fifth-img{
+        width: 100%;
+        height: 300px;
     }
   }
 
@@ -102,3 +146,5 @@ p{
 #footer h1{
     color: #333333;
 }
+
+
