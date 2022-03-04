@@ -1,69 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Liaz Photography</title>
         <link rel="icon" type="image/x-icon" href="images/icon-camera.png">
+        <link rel="stylesheet" href="css/main-content-styles.css">
+        <link rel="stylesheet" href="css/header-styles.css">
+        <link rel="stylesheet" href="css/footer-styles.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/main.js"></script>
     </head>
     <body>
-    <div class="flex-container">
-        <div class="flex-child">
-            <div id="main-img">
-                <img src="images/camera.jpeg" alt="image">
+    <div class="flex-container"> <!--content wrapper-->
+        <header> <!--header section-->
+            <div class="flex-child">
+                <div id="main-img">
+                    <img src="images/img-10.jpg" alt="image">
+                </div>
+    
+                <div id = "intro">
+                    <h1>Liaz Photography</h1>
+                    <p id = "intro-text">Beautiful Natural Photography</p>
+                    <button class="button" onClick="goto('#work')">View Work</button>
+                   </div>
             </div>
+        </header>
 
-            <div id = "intro">
-                <h1 style="text-transform: uppercase;">Liaz Photography</h1>
-                <p id = "intro-text" style="font-size: 16px;">Beautiful Natural Photography</p>
-                <button class="button" onClick="goto('#work')">View Work</button>
-               </div>
-   
-        </div>
 
-        <div id = "work" class="flex-child2">
-            <p style="color:whitesmoke">| our Work |</p>
-        </div>
-
-        <div class="flex-child3">
-            <img id="first-img" src="images/bg2.jpeg" alt="image">
-            <h3>Photo One</h3>
-            <p style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
-        </div>
-
-        <div class="flex-child3">
-            <img id="second-img" src="images/bg3.jpeg" alt="image">
-            <h3>Photo Two</h3>
-            <p style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
-        </div>
-
-        <div class="flex-child3">
-            <img id="third-img" src="images/bg4.jpeg" alt="image">
-            <h3>Photo Three</h3>
-            <p style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
-        </div>
-
-        <div class="flex-child3">
-            <img  id="fourth-img" src="images/bg5.jpeg" alt="image">
-            <h3>Photo Four</h3>
-            <p style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
-        </div>
-
-        <div class="flex-child3">
-            <img id="fifth-img" src="images/bg6.jpeg" alt="image">
-            <h3>Photo Five</h3>
-            <p style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
-        </div>
+        <main> <!--Main content-->
+            <div id = "work" class="flex-child2">
+                <p style="color:whitesmoke">| Our Work |</p>
+            </div>
+    
+            <div class="flex-child3">
+                <img class="img" src="images/img-6.jpg" alt="image">
+                <h3>Photo One</h3>
+                <p style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+            </div>
+    
+            <div class="flex-child4">
+                <div class="grid-container">
+                    <img class="img" src="images/img-4.jpg" alt="image">
+                    <img class="img" src="images/img-11.jpg" alt="image">
+                    <img class="img" src="images/img-8.jpg" alt="image">
+                </div>
+                <h3>Photo Two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+            </div>
+    
+            <div class="flex-child3">
+                <img class="img" src="images/img-7.jpg" alt="image">
+                <h3>Photo Three</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+            </div>
+    
+            <div class="flex-child3">
+                <img  class="img" src="images/img-5.jpg" alt="image">
+                <h3>Photo Four</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+            </div>
+    
+            <div class="flex-child3">
+                <img class="img" src="images/img-9.jpg" alt="image">
+                <h3>Photo Five</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, tenetur.</p>
+            </div>
+        </main>
     </div>
-
-    <div id="footer">
-        <h1>Get In Touch</h1>
-        <p>Email or call us to set up a consult</p>
-        <p>Email: contact@liazphotos.test</p>
-        <p>Phone: (256) 755-5555</p>
-    </div>
-
+    
+    <footer> <!--footer section-->
+        <div id="footer">
+            <h1>Get In Touch</h1>
+            <p>Email or call us to set up a consult</p>
+            <p>Email: contact@liazphotos.test</p>
+            <p>Phone: (256) 755-5555</p>
+        </div>
+    
+    </footer>
     </body>
 </html>

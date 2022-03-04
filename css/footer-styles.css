@@ -1,0 +1,26 @@
+/*Desktop styles*/
+
+#footer{
+    margin-top: 100px;
+    line-height: 1rem;
+    margin-bottom: 70px;
+}
+
+#footer p{
+    text-transform: capitalize;
+    color: #333333;
+}
+
+#footer h1{
+    color: #333333;
+}
+
+
+/*Tablet and mobile styles*/
+@media only screen and (max-width:768px){
+    #footer{
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+        margin-top: 0px;
+    }
+}

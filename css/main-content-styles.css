@@ -1,0 +1,74 @@
+/* Desktop styles*/
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+.flex-child2{
+    background-color: #2a5254;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.flex-child3{
+    background-color: rgb(252, 241, 221);;
+    width: 100%;
+}
+
+.flex-child3 > img{
+  width: 100%;
+  height: 80vh;
+} 
+
+.flex-child4{
+    width: 100%;
+    height: 50vh;
+  } 
+
+.grid-container{
+    display: flex;
+    width: 100%;
+}
+
+.grid-container> img{
+    display: block;
+    width: 33.33%;
+    height: 33vh;
+}
+
+
+/*Tablet and mobile styles*/
+@media only screen and (max-width:600px){
+    .flex-child3{
+        width: 100% ; 
+    }
+
+    div.flex-child3 > img{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .img{
+        width: 100%;
+        height: 300px;
+    }
+
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .grid-container> img{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .flex-child4{
+        width: 100%;
+        height: auto;
+    } 
+}

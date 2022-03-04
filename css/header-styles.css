@@ -1,0 +1,86 @@
+/* Desktop styles */
+
+.flex-child{
+    background-color:rgb(252, 241, 221);
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+#main-img{
+    flex:65%;
+}
+
+#main-img img{
+    width: 100%;
+    height: 100%;
+}
+
+#intro{
+    flex: 35%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+}
+
+#intro h1{
+    text-transform: uppercase;
+}
+
+#intro-text{
+    font-size: 16px;
+}
+
+.button{
+    border-radius: 30px;
+    background-color: #2a5254;
+    border: 1px solid #2a5254;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    font-family: "Monaco", monospace;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+
+
+/* Tablet and Mobile screens*/
+@media only screen and (max-width: 768px){
+    .flex-child{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../images/img-2.jpg);
+        background-size: cover;
+      }
+  
+      #intro{
+          width: 100%;
+          position: absolute;
+          top: 30%;
+          padding: 20px;
+      }
+      
+      #intro h1{
+          color: whitesmoke;
+          font-weight: 700;
+      }
+  
+      #main-img{
+          width: 100% ; 
+          height: 400px;
+          display: none;
+      }
+  
+      #intro-text{
+          color: whitesmoke
+      }
+
+      .button{
+          margin-top: 80px;
+      }
+  
+}
