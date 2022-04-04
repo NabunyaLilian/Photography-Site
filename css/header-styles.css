@@ -55,6 +55,7 @@
         align-items: center;
         background-image: url(../images/img-2.jpg);
         background-size: cover;
+        position: relative;
       }
   
       #intro{
