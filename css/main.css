@@ -2,6 +2,7 @@
 
 html, body{
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 body{
@@ -41,6 +42,8 @@ p{
     text-transform: capitalize;
     color: gray;
     font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /*Tablet and mobile styles*/
